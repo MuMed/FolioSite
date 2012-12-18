@@ -2,6 +2,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(http://fonts.googleapis.com/css?family=Englebert);
 
 ::selection {
 	background: #333;
@@ -28,7 +29,7 @@
 ----------------------------- */
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Englebert', sans-serif;
 	background: url('../images/bg.gif');
 	padding: 0;
 	margin: 0;
@@ -59,7 +60,7 @@ a {
 header {
 	text-align: center;
 	font-weight: 300;
-	font-size: 700%;
+	font-size: 600%;
 }
 
 /* --------------------------
@@ -83,6 +84,7 @@ nav ul {
 	padding: 0;
 	margin: 50px 0;
 	text-align: center;
+	font-size: 150%;
 }
 
 nav ul li {
@@ -124,6 +126,7 @@ nav ul li:last-child:after {
 	Main Image Box
 ----------------------------- */
 
+
 .work {
 	margin: 20px 0;
 }
@@ -138,6 +141,7 @@ nav ul li:last-child:after {
 	-webkit-filter: sepia(0.4);
 	position: relative;
 	padding: 0 !important;
+	font-family: 'Open Sans', sans-serif;
 	
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);	
 
